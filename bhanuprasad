@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            margin: 20px;
+            font-size: 15px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-radius: 20px;
+
+        }
+
+
+
+    div{
+        height: 100vh;
+        background-color:#597fcf;
+        text-align: center;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: 1px solid black;
+        border-radius: 20px;
+        
+        
+
+    }
+    .bhanu{
+        height: 40px;
+        width: 140px;
+        border-radius: 10px;
+        cursor:pointer;
+      
+    }
+    .bhanu:hover{
+        background-color: aqua;
+        color: white;
+       
+        
+
+
+    }
+    iframe{
+        height: 470px;;
+        width: 364px;;
+    }
+    article{
+        height: 100vh;
+        background-color:lightblue;
+          border: 1px solid black;
+           padding: 20px;border-radius: 20px;
+           text-align: center;
+
+    }
+    address{
+        height: 100vh;
+        background-color:lightblue;
+          border: 1px solid black;
+          padding: 50px;
+          border-radius: 20px;
+           text-align: center;
+
+    }
+    .mani{
+        height: 100vh;
+        background-color:lightblue;
+        text-align: center;
+          border: 1px solid black;
+          padding: 20px;
+          border-radius: 20px;
+           text-align: center;
+
+
+    }
+    .bh{
+        height: 100vh;
+        background-color:lightblue;
+        text-align: center;
+          border: 1px solid black;
+          padding: 20px;
+          border-radius: 20px;
+           text-align: center;
+
+
+    }
+    h2{
+        color: black;
+
+
+    }
+    h1{
+        color: white;
+        background-color:#597fcf;
+        
+    }
+    button{
+         height: 40px;
+        width: 140px;
+        border-radius: 10px;
+        cursor:pointer;
+
+    }
+    button:hover{
+        background-color: green;
+        color: white;
+    }
+    footer{
+        
+        background-color: black;
+        color: white;
+            height: 70px;
+    border-radius: 20px;
+    text-align: start;
+    padding: 10px; text-align: center;
+
+
+    }
+    table, th, td{
+        text-align: center;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: 374px;
+
+ 
+}
+
+    
+
+
+
+   
+
+</style>
+</head>
+<body>
+    <div><h1>Welcome To My Portfolio</h1>
+
+
+
+
+    <a href=""><button class="bhanu">about</button></a>
+    <a href=""><button class="bhanu">skills</button></a>
+    <a href=""><button class="bhanu">projects</button></a>
+    <a href=""><button class="bhanu">contact</button></a>
+
+</div>
+    <article><h2>BhanuPrasad Yandrapu</h2>
+
+
+    <iframe src="C:\Users\bhanu\OneDrive\Desktop\photo3.jpg"></iframe><br>
+    <p>I am a passionate web developer with a focus on front-end technologies</p><br>
+    <p>I am current pursuing my B.Tech in<em>SIR CR REDDY COLLEGE OF ENGINEERING</em> Eluru.</p><br>
+    <p>You can <strong>Click here</strong> to checkout what i have learnt in HTML,CSS,JS</p></article>
+
+
+    <address><h2>My Skills</h2>
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript basics</li>
+        <li>Python Basics</li>
+    </ol></address>
+    <address class="mani"><h2>my projects</h2>
+    <table>
+        <tr>
+            <strong><th>Project</th></strong>
+            <strong><th>Description</th></strong>
+        </tr>
+        <tr>
+            <td>portfolio Website</td>
+            <td>I have a Portfolio website by using HTML, CSS & Javascript</td>
+
+
+
+        </tr>
+        <tr>
+            <td>simplecalculator</td>
+            <td>I have built a simple calculator by using python</td>
+        </tr>
+
+
+    </table>
+    </address>
+
+
+
+
+
+
+
+
+    <address class="bh"><h2>Contact me</h2>
+    <p>Feel free to get in touch with me using the form below</p>
+    <form action="">
+    <label for="Name">Name:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="email">Email:</label>
+    <input type="email"><br>
+
+
+    <p>choose your gender:</p>
+    <input type="radio" value="male" name="f language"  id="male">
+    <label for="male">male</label>
+    <input type="radio" value="female" name="f language"  id="female">
+    <label for="female">female</label><br>
+
+
+
+
+    <label for="bio">Bio(up to 200 characters):</label>
+    <input type="text"><br>
+   
+    <button type="submit">submit</button></address>
+
+    <footer>@2025 my Portfolio</footer>
+    
+
+
+
+
+
+</form>
+</body>
+</html>
